@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ChevronIcon from '@/assets/icons/ChevronIcon';
 import ListIcon from '@/assets/icons/ListIcon';
-import TaskItems from './ TaskItems';
+import TaskItems from './TaskItems';
 
 const TaskList = ({ tasks, getTasks, isLoading }) => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);

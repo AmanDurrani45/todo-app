@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react"
 import PlusIcon from '../assets/icons/PlusIcon'
-import TaskList from "./ TaskList";
+import TaskList from "./TaskList";
 import axios from 'axios'
 import { ColorRing } from "react-loader-spinner";
 
